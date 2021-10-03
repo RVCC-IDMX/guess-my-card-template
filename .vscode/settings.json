@@ -1,5 +1,5 @@
 {
-  "liveServer.settings.root": "/distt",
+  "liveServer.settings.root": "/dist",
   "liveServer.settings.port": 3000,
   "files.eol": "\n",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
