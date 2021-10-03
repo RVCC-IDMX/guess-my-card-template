@@ -14,6 +14,7 @@ will return a random number from
 
 */
 import getRandomInt from './random';
+import './style.css';
 
 const farewell = document.querySelector('.farewell');
 const suits = ['Hearts', 'Spades', 'Diamonds', 'Clubs'];
