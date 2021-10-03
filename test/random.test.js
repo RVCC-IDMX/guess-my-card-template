@@ -1,9 +1,17 @@
 /* eslint-disable no-plusplus */
+import { test } from '@jest/globals';
 import getRandomInt from '../src/random';
 
 /**
  * Test Suite
  */
+
+test('test 0 & 1', () => {
+  expect(getRandomInt(0, 0)).toBe(0);
+  expect(getRandomInt(0, 1)).toBe(0);
+  expect(getRandomInt(1, 1)).toBe(1);
+});
+
 describe('getRandomInt()', () => {
   it('returns equally random numbers', () => {
     // arrange
@@ -19,8 +27,6 @@ describe('getRandomInt()', () => {
     for (let i = 0; i < counts.length; i++) {
       counts[i] = Math.round(counts[i] / 10000);
     }
-
-    // log
 
     // assert
     expect(counts).toEqual([25, 25, 25, 25]);

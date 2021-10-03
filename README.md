@@ -10,18 +10,17 @@ npm install
 
 1. Prettier
 2. ESLint
-3. Jest Runner
+3. Better Comments
 4. Live Server
-   
 
 ## Write Code
 
-1. getRandomInt(max) in random.js
+1. getRandomInt(min, max) in random.js
 2. Card game logic in app.js
 
-## Test getRandomInt(max)
+## Test getRandomInt(min, max)
 
-1. Run Jest from test/random.test.js using Jest Runner
+1. Run Jest from test/random.test.js
 2. Run Jest at command line
 
 ```
