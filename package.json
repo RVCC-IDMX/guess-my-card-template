@@ -1,8 +1,8 @@
 {
-  "name": "js-stmnts-test",
+  "name": "guess-my-card",
   "version": "1.0.0",
-  "description": "JS unit testing using Jest",
-  "main": "index.js",
+  "description": "Guess My Card",
+  "main": "app.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RVCC-IDMX/js-test-1-template.git"
+    "url": "git+https://github.com/RVCC-IDMX/guess-my-card-template"
   },
   "author": "Cynthia Teeters <cynthia.teeters@raritanval.edu> (https://github.com/cynthiateeters)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RVCC-IDMX/js-test-1-template/issues"
+    "url": "https://github.com/RVCC-IDMX/guess-my-card-template/issues"
   },
-  "homepage": "https://github.com/RVCC-IDMX/js-test-1-template#readme",
+  "homepage": "https://github.com/RVCC-IDMX/guess-my-card-template#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/plugin-transform-modules-commonjs": "^7.15.4",
